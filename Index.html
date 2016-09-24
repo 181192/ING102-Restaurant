@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Resturant</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato" />
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link href="StyleSheet.css" type="text/css" rel="stylesheet" />
+    <link href="JavaScript.js" type="text/javascript" rel="JavaScript" />
+
+</head>
+<body>
+
+
+    <!-- Navbar -->
+    <div class="w3-top">
+        <ul class="w3-navbar w3-white w3-left-align w3-large">
+            <li class="w3-hide-medium w3-hide-large w3-opennav w3-right">
+                <a class="w3-hover-white w3-large w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+            </li>
+            <li><a href="/Index.html" class="w3-teal"><i class="fa fa-home w3-margin-right"></i>Resturantlogo</a></li>
+            <li class="w3-hide-small w3-dropdown-hover">
+                <a href="#" title="Notifications">Meny <i class="fa fa-caret-down"></i></a>
+                <div class="w3-dropdown-content w3-white w3-card-4">
+                    <a href="#">Dagens</a>
+                    <a href="#">Hovedmeny</a>
+                    <a href="#">Dessert</a>
+                </div>
+            <li class="w3-hide-small"><a href="Booking.html" class="w3-hover-dark-grey">Booking </a></li>
+            <li class="w3-hide-small"><a href="#" class="w3-hover-dark-grey">Galleri </a></li>
+            <li class="w3-hide-small w3-dropdown-hover">
+                <a href="#" title="Notifications">Arrangement <i class="fa fa-caret-down"></i></a>
+                <div class="w3-dropdown-content w3-white w3-card-4">
+                    <a href="#">Facebook</a>
+                    <a href="#">Catering</a>
+                    <a href="#">Leie av lokaler</a>
+                </div>
+            </li>
+            <li class="w3-hide-small"><a href="Kontaktinfo.html" class="w3-hover-dark-grey">Kontaktinfo</a></li>
+            <li class="w3-hide-small w3-right"><a href="#" class="w3-hover-teal" title="Search"><i class="fa fa-search"></i></a></li>
+        </ul>
+    </div>
+
+    <!-- Navbar on small screens -->
+    <div id="navDemo" class="w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:43px;">
+        <ul class="w3-navbar w3-left-align w3-large w3-white">
+            <li class="w3-dropdown-hover">
+                <a href="#" title="Notifications">Meny <i class="fa fa-caret-down"></i></a>
+                <div class="w3-dropdown-content w3-light-grey w3-card-4">
+                    <a href="#">Dagens</a>
+                    <a href="#">Hovedmeny</a>
+                    <a href="#">Dessert</a>
+                </div>
+            </li>
+            <li><a href="#">Booking</a></li>
+            <li><a href="#">Galleri</a></li>
+            <li class="w3-dropdown-hover">
+                <a href="#" title="Notifications">Arrangement <i class="fa fa-caret-down"></i></a>
+                <div class="w3-dropdown-content w3-light-grey w3-card-4">
+                    <a href="#">Facebook</a>
+                    <a href="#">Catering</a>
+                    <a href="#">Leie av lokaler</a>
+                </div>
+            </li>
+            <li><a href="#">Kontaktinfo</a></li>
+        </ul>
+    </div>
+
+    <!-- First Parallax Image with Logo Text -->
+    <div class="bgimg-3 w3-opacity w3-display-container">
+        <div class="w3-display-middle" style="white-space:nowrap;">
+            <span class="w3-center w3-padding-xlarge w3-black w3-xlarge w3-wide w3-animate-opacity">VELKOMMEN</span>
+        </div>
+    </div>
+
+    <!-- Container (About Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="about">
+        <h3 class="w3-center">ABOUT US</h3>
+        <p class="w3-center"><em>History</em></p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+            qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+
+        <div class="w3-row">
+            <div class="w3-col m6 w3-center w3-section">
+                <p><b>Quality</b></p><br>
+                <img src="/Image/Bryggeloftet2.jpg" class="w3-circle" alt="Photo of Me">
+            </div>
+
+
+            <!-- Hide this text on small devices -->
+            <div class="w3-col m6 w3-hide-small w3-section">
+                <p>
+                    Lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+                <br />
+            </div>
+        </div>
+        <!-- Trip Advisor -->
+        <div id="TA_rated721" class="TA_rated">
+            <ul id="QOlG4r" class="TA_links uXybtbCcV">
+                <li id="YCslxDatN6" class="KpZXKqKOoGY">
+                    <a target="_blank" href="https://no.tripadvisor.com/"><img src="https://no.tripadvisor.com/img/cdsi/img2/badges/ollie-11424-2.gif" alt="TripAdvisor" /></a>
+                </li>
+            </ul>
+        </div>
+        <script src="https://www.jscache.com/wejs?wtype=rated&amp;uniq=721&amp;locationId=1481034&amp;lang=no&amp;display_version=2"></script>
+
+    </div>
+
+    <!-- Second Parallax Image with Portfolio Text -->
+    <div class="bgimg-2 w3-display-container">
+        <div class="w3-display-middle">
+            <span class="w3-xxlarge w3-text-light-grey w3-wide">NOE FINT</span>
+        </div>
+    </div>
+
+    <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+        <span class="w3-closebtn w3-hover-white w3-text-white w3-xxxlarge w3-container w3-display-topright">×</span>
+        <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+            <img id="img01" style="max-width:100%">
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-center w3-dark-grey w3-padding-32 w3-hover-black">
+        <p>kalli-design©2016 </p>
+    </footer>
+   
+</body>
+</html>
